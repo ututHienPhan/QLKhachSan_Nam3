@@ -1,0 +1,17 @@
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\bin\Release\frmChucNangThongKe.exe.config
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\bin\Release\frmChucNangThongKe.exe
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\bin\Release\frmChucNangThongKe.pdb
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\bin\Release\DTO.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\bin\Release\DTO.pdb
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\obj\Release\frmChucNangThongKe.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\obj\Release\MainWindow.baml
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\obj\Release\MainWindow.g.cs
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\obj\Release\App.g.cs
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\obj\Release\frmChucNangThongKe_MarkupCompile.cache
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\obj\Release\frmChucNangThongKe.g.resources
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\obj\Release\frmChucNangThongKe.Properties.Resources.resources
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\obj\Release\frmChucNangThongKe.csproj.GenerateResource.Cache
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\obj\Release\frmChucNangThongKe.exe
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\obj\Release\frmChucNangThongKe.pdb
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\obj\Release\Window1.baml
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmChucNangThongKe\obj\Release\Window1.g.cs

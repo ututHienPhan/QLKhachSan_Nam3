@@ -1,0 +1,25 @@
+﻿<Window x:Class="frmChucNang.tmpWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Phần mềm quản lý phòng - khách sạn Hoa Hồng" Height="300" Width="700"
+        WindowStartupLocation="CenterScreen" AllowsTransparency="True" Background="Transparent" WindowStyle="None"
+        ShowInTaskbar="False" SizeToContent="WidthAndHeight"
+        FocusManager.FocusedElement="{Binding ElementName=txtId}">
+    <Border CornerRadius="10"
+            BorderBrush="Gray"
+            BorderThickness="3"
+            Margin="24"
+            Padding="4"
+            Name="Background">
+        <Border.Effect>
+            <DropShadowEffect Color="Gray"
+                              Opacity="50"
+                              ShadowDepth="15">
+
+            </DropShadowEffect>
+        </Border.Effect>
+        <Grid Name="tmpCon">
+
+        </Grid>
+    </Border>
+</Window>

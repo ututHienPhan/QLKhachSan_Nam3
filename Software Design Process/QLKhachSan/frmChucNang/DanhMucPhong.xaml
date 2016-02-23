@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="frmChucNang.DanhMucPhong"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="420" Width="609.575" Background="White">
+    <Grid Loaded="DanhMucPhong_Loaded">
+        <ComboBox x:Name="cbxDanhMucPhong" HorizontalAlignment="Left" Margin="154,22,0,0" VerticalAlignment="Top" ItemsSource="{Binding}" Width="194"/>
+        <Label Content="Loại phòng" HorizontalAlignment="Left" Margin="60,17,0,0" VerticalAlignment="Top"/>
+        <Label Content="Danh sách phòng" HorizontalAlignment="Left" Margin="60,60,0,0" VerticalAlignment="Top"/>
+        <DataGrid x:Name="DataGridDSPhong" HorizontalAlignment="Left" Margin="60,100,0,0" VerticalAlignment="Top" ItemsSource="{Binding}" Height="219" Width="481"/>
+        <Button Content="Thêm phòng" HorizontalAlignment="Left" Margin="60,349,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Xóa phòng" HorizontalAlignment="Left" Margin="162,349,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Sửa thông tin" HorizontalAlignment="Left" Margin="264,349,0,0" VerticalAlignment="Top" Width="84"/>
+        <Button Content="Lập hóa đơn" HorizontalAlignment="Left" Margin="466,349,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Thuê phòng" HorizontalAlignment="Left" Margin="371,349,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Quay về" HorizontalAlignment="Left" Margin="466,22,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</UserControl>

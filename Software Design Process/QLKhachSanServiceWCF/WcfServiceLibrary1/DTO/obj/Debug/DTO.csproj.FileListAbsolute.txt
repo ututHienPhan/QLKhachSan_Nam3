@@ -1,0 +1,5 @@
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\DTO\bin\Debug\DTO.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\DTO\bin\Debug\DTO.pdb
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\DTO\obj\Debug\DTO.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\DTO\obj\Debug\DTO.pdb

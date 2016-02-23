@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="frmChucNang.DanhMucPhong"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             Height="470" Width="650"
+             FocusManager.FocusedElement="{Binding ElementName=txtId}">
+    <Grid Loaded="DanhMucPhong_Loaded">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition />
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="-10,0,10,0">
+        <Label Content="Loại phòng" HorizontalAlignment="Left" Margin="70,17,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbxDanhMucPhong" HorizontalAlignment="Left" Margin="30,22,0,0" 
+                  VerticalAlignment="Top" ItemsSource="{Binding}" Width="194" SelectionChanged="Doi_loai_phong"/>
+            <Button Content="Quay về" HorizontalAlignment="Left" 
+                Margin="115,22,0,0" VerticalAlignment="Top" Width="75"
+                    IsCancel="True" Click="Button_Click"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Label Content="Số lượng trống" Margin="60,17,0,0" />
+            <Label Name="lbSL" Width="50" Margin="10,17,0,0"/>
+            <Label Content="Đơn giá" Margin="20,17,0,0"/>
+            <Label Name="lbDG" Width="100" Margin="10,17,0,0"/>
+            <Label Content="Tối đa" Margin="20,17,0,0"/>
+            <Label Name="lbTD" Width="100" Margin="10,17,0,0"/>
+        </StackPanel>
+        <Label Content="Danh sách phòng" Grid.Row="2" HorizontalAlignment="Left" 
+               Margin="60,0,0,0" VerticalAlignment="Top"/>
+        <DataGrid x:Name="DataGridDSPhong" HorizontalAlignment="Left" 
+                  Margin="60,0,0,0" VerticalAlignment="Top"
+                  Grid.Row="3"
+                  Height="219" Width="481" ItemsSource="{Binding}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Ten Phong" IsReadOnly="True" Binding="{Binding Path=MaPhong}" Width="100"/>
+                <DataGridTextColumn Header="Loai Phong" IsReadOnly="True" Binding="{Binding Path=TenLoai}" Width="100"/>
+                <DataGridTextColumn Header="Toi Da" IsReadOnly="True" Binding="{Binding Path=ToiDa}" Width="100"/>
+                <DataGridTextColumn Header="Tinh Trang" IsReadOnly="True" Binding="{Binding Path=TinhTrang}" Width="140"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Grid.Row="4" Orientation="Horizontal">
+        <Button Name="Add" Content="Thêm phòng" HorizontalAlignment="Left" 
+                Margin="60,0,0,0" VerticalAlignment="Top" 
+                Width="75" Click="ThemPhong_Click"/>
+        <Button Name="Update" Content="Sửa thông tin" HorizontalAlignment="Left" 
+                Margin="25,0,0,0" VerticalAlignment="Top" Width="84"
+                Click="Update_Click"/>
+            <Button Name="Delete" Content="Phiếu thuê" HorizontalAlignment="Left" 
+                Margin="25,0,0,0" VerticalAlignment="Top" Width="75"
+                Click="Delete_Click"/>
+            <Button Name="Rent" Content="Thuê phòng" HorizontalAlignment="Left" 
+                Margin="25,0,0,0" VerticalAlignment="Top" Width="75"
+                Click="Rent_Click"/>
+        <Button Content="Lập hóa đơn" HorizontalAlignment="Left" 
+                Margin="25,0,0,0" VerticalAlignment="Top" Width="75"
+                Name="Pay" Click="Pay_Click"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

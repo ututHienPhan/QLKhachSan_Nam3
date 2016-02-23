@@ -1,0 +1,10 @@
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmQuanLyNhanVien\obj\Release\frmQuanLyNhanVien.baml
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmQuanLyNhanVien\obj\Release\frmQuanLyNhanVien.g.cs
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmQuanLyNhanVien\obj\Release\frmQuanLyNhanVien_MarkupCompile.cache
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmQuanLyNhanVien\obj\Release\frmQuanLyNhanVien.g.resources
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmQuanLyNhanVien\bin\Release\frmQuanLyNhanVien.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmQuanLyNhanVien\bin\Release\frmQuanLyNhanVien.pdb
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmQuanLyNhanVien\bin\Release\UIContract.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmQuanLyNhanVien\bin\Release\UIContract.pdb
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmQuanLyNhanVien\obj\Release\frmQuanLyNhanVien.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\frmQuanLyNhanVien\obj\Release\frmQuanLyNhanVien.pdb

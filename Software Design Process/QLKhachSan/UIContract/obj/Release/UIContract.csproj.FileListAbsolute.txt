@@ -1,0 +1,5 @@
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\UIContract\obj\Release\UIContract.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\UIContract\bin\Release\UIContract.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\UIContract\bin\Release\UIContract.pdb
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\UIContract\obj\Release\UIContract.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSan\UIContract\obj\Release\UIContract.pdb

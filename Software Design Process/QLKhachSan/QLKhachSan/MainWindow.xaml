@@ -1,0 +1,95 @@
+﻿<Window x:Class="QLKhachSan.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QLKhachSan"
+        mc:Ignorable="d"
+        Title="Phần mềm quản lý phòng - khách sạn Hoa Hồng" Height="300" Width="700"
+        WindowStartupLocation="CenterScreen" AllowsTransparency="True" Background="Transparent" WindowStyle="None"
+        ShowInTaskbar="False" SizeToContent="WidthAndHeight"
+        FocusManager.FocusedElement="{Binding ElementName=txtId}">
+    <Window.Resources>
+        <local:BoolToColorConverter x:Key="ColorConverter" />
+    </Window.Resources>
+    <Window.Icon>
+        <BitmapImage UriSource="ImageResources/IconBanner/rose-icon.png"></BitmapImage>
+    </Window.Icon>
+    <Border CornerRadius="10"
+            BorderBrush="Gray"
+            BorderThickness="3"
+            Margin="24"
+            Padding="4" Name="Background"
+            Background="{Binding ElementName=cbMau, Path=SelectedIndex,
+        Converter={StaticResource ColorConverter}}">
+        <Border.Effect>
+            <DropShadowEffect Color="Gray"
+                              Opacity="50"
+                              ShadowDepth="15">
+                
+            </DropShadowEffect>
+        </Border.Effect>
+    <Grid>
+        <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition />
+        </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Margin="8">
+                <Image Source="ImageResources/IconBanner/rose-icon.png">
+                    <Image.Effect>
+                        <DropShadowEffect Color="Gray"
+                                          Opacity="50"
+                                          ShadowDepth="8">
+                            
+                        </DropShadowEffect>
+                    </Image.Effect>
+                </Image>
+            </StackPanel>
+            <Label Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Center" 
+                   Foreground="#FF14AC0D" Margin="5" 
+                   FontFamily="Tahoma" FontSize="23">Ứng dụng quản lý phòng và nhân viên</Label>
+        <Label Grid.Row="1" Grid.Column="1">Tài khoản</Label>
+            <TextBox Name="txtId" Grid.Row="1" Grid.Column="2" ToolTip="Nhập tài khoản" Margin="0,0,15,20"/>
+            <Label Grid.Row="2" Grid.Column="1" >Mật khẩu</Label>
+            <PasswordBox Name="pbxPass" Grid.Row="2" Grid.Column="2" Margin="0,0,15,20" ToolTip="Nhập mật khẩu"/>
+            <StackPanel Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center"
+                    Margin="10" Orientation="Horizontal">
+            <Button Name="btnOk" Margin="0,3,30,18" 
+                    Width="100" Height="25" 
+                    Click="btnOk_Click" IsDefault="True">Đăng nhập
+                    <Button.Effect>
+                        <DropShadowEffect Color="Gray"
+                                          Opacity="50"
+                                          ShadowDepth="8"
+                                          >
+                            
+                        </DropShadowEffect>
+                    </Button.Effect>
+            </Button>
+        <Button Name="ntnThoat" IsCancel="True" 
+                Margin="30,3,0,18" Width="100" 
+                Height="25">Thoát
+                    <Button.Effect>
+                        <DropShadowEffect Color="Gray"
+                                          Opacity="50"
+                                          ShadowDepth="8">
+                            
+                        </DropShadowEffect>
+                    </Button.Effect>
+        </Button>
+            </StackPanel>
+            <ComboBox Name="cbMau" Grid.Column="0" Grid.Row="3" Margin="20">
+                <ComboBoxItem Content="Trang nhã" IsSelected="True" />
+                <ComboBoxItem Content="Sinh động" />
+                <ComboBoxItem Content="Tươi sáng" />
+            </ComboBox>
+        </Grid>
+    </Border>
+</Window>

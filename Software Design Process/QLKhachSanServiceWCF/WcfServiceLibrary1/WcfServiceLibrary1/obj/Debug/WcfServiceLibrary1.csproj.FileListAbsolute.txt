@@ -1,0 +1,10 @@
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\DAO.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\DTO.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\DAO.pdb
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\DTO.pdb
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb

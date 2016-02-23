@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="QLKSKhoiDong" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IQLKSKhoiDong_Khoi_dong_dang_nhap_InputMessage">
+    <wsdl:part name="parameters" element="tns:Khoi_dong_dang_nhap" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_Khoi_dong_dang_nhap_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Khoi_dong_dang_nhapResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_Themloaiphong_InputMessage">
+    <wsdl:part name="parameters" element="tns:Themloaiphong" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_Themloaiphong_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ThemloaiphongResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_XoaLoaiPhong_InputMessage">
+    <wsdl:part name="parameters" element="tns:XoaLoaiPhong" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_XoaLoaiPhong_OutputMessage">
+    <wsdl:part name="parameters" element="tns:XoaLoaiPhongResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_ThongTin_LoaiPhong_InputMessage">
+    <wsdl:part name="parameters" element="tns:ThongTin_LoaiPhong" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_ThongTin_LoaiPhong_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ThongTin_LoaiPhongResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_CapNhat_LoaiPhong_InputMessage">
+    <wsdl:part name="parameters" element="tns:CapNhat_LoaiPhong" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_CapNhat_LoaiPhong_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CapNhat_LoaiPhongResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_Load_DanhMucPhong_InputMessage">
+    <wsdl:part name="parameters" element="tns:Load_DanhMucPhong" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_Load_DanhMucPhong_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Load_DanhMucPhongResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_ThemPhieuThue_InputMessage">
+    <wsdl:part name="parameters" element="tns:ThemPhieuThue" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_ThemPhieuThue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ThemPhieuThueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_LayThongTinPhieuThue_InputMessage">
+    <wsdl:part name="parameters" element="tns:LayThongTinPhieuThue" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_LayThongTinPhieuThue_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LayThongTinPhieuThueResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_Them_phong_InputMessage">
+    <wsdl:part name="parameters" element="tns:Them_phong" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_Them_phong_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Them_phongResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_Xoa_phong_InputMessage">
+    <wsdl:part name="parameters" element="tns:Xoa_phong" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_Xoa_phong_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Xoa_phongResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_Cap_nhap_phong_InputMessage">
+    <wsdl:part name="parameters" element="tns:Cap_nhap_phong" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_Cap_nhap_phong_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Cap_nhap_phongResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_Load_DsPhong_InputMessage">
+    <wsdl:part name="parameters" element="tns:Load_DsPhong" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_Load_DsPhong_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Load_DsPhongResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_LayThongTinDichVu_InputMessage">
+    <wsdl:part name="parameters" element="tns:LayThongTinDichVu" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_LayThongTinDichVu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LayThongTinDichVuResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_ThemHoaDon_InputMessage">
+    <wsdl:part name="parameters" element="tns:ThemHoaDon" />
+  </wsdl:message>
+  <wsdl:message name="IQLKSKhoiDong_ThemHoaDon_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ThemHoaDonResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IQLKSKhoiDong">
+    <wsdl:operation name="Khoi_dong_dang_nhap">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQLKSKhoiDong/Khoi_dong_dang_nhap" message="tns:IQLKSKhoiDong_Khoi_dong_dang_nhap_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQLKSKhoiDong/Khoi_dong_dang_nhapResponse" message="tns:IQLKSKhoiDong_Khoi_dong_dang_nhap_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Themloaiphong">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQLKSKhoiDong/Themloaiphong" message="tns:IQLKSKhoiDong_Themloaiphong_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQLKSKhoiDong/ThemloaiphongResponse" message="tns:IQLKSKhoiDong_Themloaiphong_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="XoaLoaiPhong">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQLKSKhoiDong/XoaLoaiPhong" message="tns:IQLKSKhoiDong_XoaLoaiPhong_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQLKSKhoiDong/XoaLoaiPhongResponse" message="tns:IQLKSKhoiDong_XoaLoaiPhong_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ThongTin_LoaiPhong">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQLKSKhoiDong/ThongTin_LoaiPhong" message="tns:IQLKSKhoiDong_ThongTin_LoaiPhong_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQLKSKhoiDong/ThongTin_LoaiPhongResponse" message="tns:IQLKSKhoiDong_ThongTin_LoaiPhong_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CapNhat_LoaiPhong">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQLKSKhoiDong/CapNhat_LoaiPhong" message="tns:IQLKSKhoiDong_CapNhat_LoaiPhong_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQLKSKhoiDong/CapNhat_LoaiPhongResponse" message="tns:IQLKSKhoiDong_CapNhat_LoaiPhong_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Load_DanhMucPhong">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQLKSKhoiDong/Load_DanhMucPhong" message="tns:IQLKSKhoiDong_Load_DanhMucPhong_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQLKSKhoiDong/Load_DanhMucPhongResponse" message="tns:IQLKSKhoiDong_Load_DanhMucPhong_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ThemPhieuThue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQLKSKhoiDong/ThemPhieuThue" message="tns:IQLKSKhoiDong_ThemPhieuThue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQLKSKhoiDong/ThemPhieuThueResponse" message="tns:IQLKSKhoiDong_ThemPhieuThue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LayThongTinPhieuThue">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQLKSKhoiDong/LayThongTinPhieuThue" message="tns:IQLKSKhoiDong_LayThongTinPhieuThue_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQLKSKhoiDong/LayThongTinPhieuThueResponse" message="tns:IQLKSKhoiDong_LayThongTinPhieuThue_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Them_phong">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQLKSKhoiDong/Them_phong" message="tns:IQLKSKhoiDong_Them_phong_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQLKSKhoiDong/Them_phongResponse" message="tns:IQLKSKhoiDong_Them_phong_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Xoa_phong">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQLKSKhoiDong/Xoa_phong" message="tns:IQLKSKhoiDong_Xoa_phong_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQLKSKhoiDong/Xoa_phongResponse" message="tns:IQLKSKhoiDong_Xoa_phong_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Cap_nhap_phong">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQLKSKhoiDong/Cap_nhap_phong" message="tns:IQLKSKhoiDong_Cap_nhap_phong_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQLKSKhoiDong/Cap_nhap_phongResponse" message="tns:IQLKSKhoiDong_Cap_nhap_phong_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Load_DsPhong">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQLKSKhoiDong/Load_DsPhong" message="tns:IQLKSKhoiDong_Load_DsPhong_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQLKSKhoiDong/Load_DsPhongResponse" message="tns:IQLKSKhoiDong_Load_DsPhong_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LayThongTinDichVu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQLKSKhoiDong/LayThongTinDichVu" message="tns:IQLKSKhoiDong_LayThongTinDichVu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQLKSKhoiDong/LayThongTinDichVuResponse" message="tns:IQLKSKhoiDong_LayThongTinDichVu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ThemHoaDon">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQLKSKhoiDong/ThemHoaDon" message="tns:IQLKSKhoiDong_ThemHoaDon_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQLKSKhoiDong/ThemHoaDonResponse" message="tns:IQLKSKhoiDong_ThemHoaDon_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IQLKSKhoiDong" type="tns:IQLKSKhoiDong">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Khoi_dong_dang_nhap">
+      <soap:operation soapAction="http://tempuri.org/IQLKSKhoiDong/Khoi_dong_dang_nhap" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Themloaiphong">
+      <soap:operation soapAction="http://tempuri.org/IQLKSKhoiDong/Themloaiphong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="XoaLoaiPhong">
+      <soap:operation soapAction="http://tempuri.org/IQLKSKhoiDong/XoaLoaiPhong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ThongTin_LoaiPhong">
+      <soap:operation soapAction="http://tempuri.org/IQLKSKhoiDong/ThongTin_LoaiPhong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CapNhat_LoaiPhong">
+      <soap:operation soapAction="http://tempuri.org/IQLKSKhoiDong/CapNhat_LoaiPhong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Load_DanhMucPhong">
+      <soap:operation soapAction="http://tempuri.org/IQLKSKhoiDong/Load_DanhMucPhong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ThemPhieuThue">
+      <soap:operation soapAction="http://tempuri.org/IQLKSKhoiDong/ThemPhieuThue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LayThongTinPhieuThue">
+      <soap:operation soapAction="http://tempuri.org/IQLKSKhoiDong/LayThongTinPhieuThue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Them_phong">
+      <soap:operation soapAction="http://tempuri.org/IQLKSKhoiDong/Them_phong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Xoa_phong">
+      <soap:operation soapAction="http://tempuri.org/IQLKSKhoiDong/Xoa_phong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Cap_nhap_phong">
+      <soap:operation soapAction="http://tempuri.org/IQLKSKhoiDong/Cap_nhap_phong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Load_DsPhong">
+      <soap:operation soapAction="http://tempuri.org/IQLKSKhoiDong/Load_DsPhong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LayThongTinDichVu">
+      <soap:operation soapAction="http://tempuri.org/IQLKSKhoiDong/LayThongTinDichVu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ThemHoaDon">
+      <soap:operation soapAction="http://tempuri.org/IQLKSKhoiDong/ThemHoaDon" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="QLKSKhoiDong">
+    <wsdl:port name="BasicHttpBinding_IQLKSKhoiDong" binding="tns:BasicHttpBinding_IQLKSKhoiDong">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/QLKSKHOIDONG/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,7 @@
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\DAO\bin\Debug\DAO.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\DAO\bin\Debug\DAO.pdb
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\DAO\bin\Debug\DTO.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\DAO\bin\Debug\DTO.pdb
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\DAO\obj\Debug\DAO.dll
+C:\Users\Administrator\Downloads\Software Design Process\QLKhachSanServiceWCF\WcfServiceLibrary1\DAO\obj\Debug\DAO.pdb

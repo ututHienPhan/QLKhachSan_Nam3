@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="frmChucNang.frmThemLoai"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" Background="White" Width="600">
+    <Grid Loaded="ThemLoai_Loade">
+        <ComboBox x:Name="cbxDanhMucPhong" ItemsSource="{Binding}" HorizontalAlignment="Left" Margin="323,87,0,0" VerticalAlignment="Top" Width="139"/>
+        <Label Content="Loại phòng hiện tại" HorizontalAlignment="Left" Margin="172,87,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="323,154,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Tên loại phòng" HorizontalAlignment="Left" Margin="172,154,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="323,204,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Giá theo giờ" HorizontalAlignment="Left" Margin="172,204,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="323,251,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Giá theo ngày" HorizontalAlignment="Left" Margin="172,251,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="323,301,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Giá theo tháng" HorizontalAlignment="Left" Margin="172,301,0,0" VerticalAlignment="Top"/>
+        <Button Content="Thêm" HorizontalAlignment="Left" Margin="209,348,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Quay về" HorizontalAlignment="Left" Margin="323,348,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</UserControl>

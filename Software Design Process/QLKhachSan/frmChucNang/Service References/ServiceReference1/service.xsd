@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Khoi_dong_dang_nhap">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tk" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mk" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Khoi_dong_dang_nhapResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Khoi_dong_dang_nhapResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Themloaiphong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="loaiphong" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="gia" type="xs:float" />
+        <xs:element minOccurs="0" name="sotd" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemloaiphongResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ThemloaiphongResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XoaLoaiPhong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="loaiphong" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XoaLoaiPhongResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="XoaLoaiPhongResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongTin_LoaiPhong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="loaiphong" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongTin_LoaiPhongResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ThongTin_LoaiPhongResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CapNhat_LoaiPhong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="old_loai_phong" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="loai_phong" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="don_gia" type="xs:float" />
+        <xs:element minOccurs="0" name="so_nguoi_td" type="xs:int" />
+        <xs:element minOccurs="0" name="sltrong" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CapNhat_LoaiPhongResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CapNhat_LoaiPhongResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Load_DanhMucPhong">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Load_DanhMucPhongResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Load_DanhMucPhongResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemPhieuThue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ten_kh" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cmnd" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="sdt" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="loaikh" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ma_phong" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tg_bd" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tg_kt" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemPhieuThueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ThemPhieuThueResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayThongTinPhieuThue">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ma_phong" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayThongTinPhieuThueResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="LayThongTinPhieuThueResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Them_phong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tk" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ma_phong" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="loai_phong" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Them_phongResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Them_phongResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Xoa_phong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tk" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ma_phong" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Xoa_phongResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Xoa_phongResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Cap_nhap_phong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="old_ma_phong" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ma_phong" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="loai_phong" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tinhtrang" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Cap_nhap_phongResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Cap_nhap_phongResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Load_DsPhong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tk" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LoaiPhong" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Load_DsPhongResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Load_DsPhongResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayThongTinDichVu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="loai_phong" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayThongTinDichVuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="LayThongTinDichVuResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemHoaDon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="maphieuthue" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="maphong" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ngay_thanh_toan" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tongtien" type="xs:float" />
+        <xs:element minOccurs="0" name="tk" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemHoaDonResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ThemHoaDonResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
